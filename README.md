@@ -60,6 +60,10 @@ In addition to new content, this repack includes updated versions of my C++ modu
 
 ### <p align="center">![StygianCore](https://stygianthebest.github.io/assets/img/projects/stygiancore/StygianTheBestThanksYouAll.jpg)</p>
 
+## TL;DR
+
+**You should read the rest of this document thoroughly before submitting any questions or bug reports.** From here you can continue reading - _probably a good idea_ - or skip to the [Getting Started](https://stygianthebest.github.io/projects/server-stygiancore#getting-started) section.
+
 ## DOCUMENTATION & SUPPORT
 
 ### This repack is released with _no official support_. All questions, requests, and bug reports should be directed through the StygianCore [GitHub](https://github.com/StygianTheBest) repo(s). Be sure to follow the repos to see when I put out an update or bugfix. I will respond to all questions as time permits.
@@ -73,28 +77,24 @@ Documentation for the this repack and its contents can be found throughout the d
 
 The **Support** folder also contains documentation and other support files. You can view many these files by by starting the included Apache Web server and visiting the Account Registration Portal at http://127.0.0.1/.
 
-## TL;DR 
-- Check out the [Getting Started](https://github.com/StygianTheBest/StygianCore#getting-started) section!
-
 ### Support Folder Contents
 
-- GameMaster's QuickStart Guide
-  - Accounts
-  - GM Commands
-  - Modules
-  - Restoration and Backup
-- Comprehensive GM Command List
-- Custom NPC List
-- Custom Item List
-- Teleport Destination List
+- [GameMaster's QuickStart Guide](https://github.com/StygianTheBest/StygianCore/tree/master/Support)
+  - [Accounts](https://github.com/StygianTheBest/StygianCore/tree/master/Support#accounts)
+  - [GM Commands](https://github.com/StygianTheBest/StygianCore/tree/master/Support#gm-commands)
+  - [Modules](https://github.com/StygianTheBest/StygianCore/tree/master/Support#modules)
+  - [Restoration and Backup](https://github.com/StygianTheBest/StygianCore/tree/master/Support#restoration-and-backup)
+- [Comprehensive GM Command List](https://web.archive.org/web/20171112140309/https://www.reaper-x.com/2009/01/01/trinity-core-gm-commands/)
+- [Custom NPC & Item List](https://github.com/StygianTheBest/StygianCore/blob/master/Support/Docs/stygiancore_npc_id_list.txt)
+- [Teleport Destination List](https://github.com/StygianTheBest/StygianCore/blob/master/Support/Docs/teleport_locations.txt)
+- [Mount ID List](https://github.com/StygianTheBest/StygianCore/blob/master/Support/Docs/mount_id_list.txt)
+- [Race/Class ID List](https://github.com/StygianTheBest/StygianCore/blob/master/Support/Docs/race_class_codes.txt)
+- [Chat Icon List](https://github.com/StygianTheBest/StygianCore/blob/master/Support/Docs/chat_icon_list.txt)
+- [LUA Color Reference](https://github.com/StygianTheBest/StygianCore/blob/master/Support/Docs/lua_colors.txt)
 - Item Reference
 - Spell Reference
 - Quest Reference
-- Chat Icon List
-- LUA Color Reference
-- Mount ID List
-- Race/Class ID List
-- Unused Item ID List
+- Unused Item ID Reference
 - A few other useful texts
 
 ## CORE
@@ -523,7 +523,7 @@ This is the client support patch required to display and enable custom content i
       - Server
         - Apache
           - httpdocs
-            - Account Registgration Portal
+            - Account Registration Portal
             - Online Documentation
         - Core
           - lua_scripts
@@ -533,6 +533,8 @@ This is the client support patch required to display and enable custom content i
         - Server Documentation
       - Icons
         - For shortcuts and the like
+      - Template
+        - SQL templates for creating items, npcs, etc.
     - Tools
       - Patch
         - Instructions on how to apply StygianCore repack updates
